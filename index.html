@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/text.css">
+  <link rel="stylesheet" type="text/css" href="css/button.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+  <title>Поиск видео</title>
+</head>
+<body>
+  <div class="container buffer-top text-center">
+
+    <h1 class="title-large buffer-bottom">ПОИСК ВИДЕО</h1>
+
+    <div class="column-1-2">
+      <div class="form">
+        <form action="https://www.youtube.com/results?search_query=" method="GET">
+          <div class="icon buffer-bottom">
+            <img class="image" src="images/youtube.ico">
+          </div>
+          <div class="label">
+            <label for="title-medium">YouTube</label>
+          </div>
+          <div class="search">
+            <input type="text" name="search_query" value="">
+          </div>
+          <div>
+            <input class="button button-green" type="submit" value="ИСКАТЬ" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="column-1-2">
+      <div class="form">
+        <form action="https://vimeo.com/search?q=" method="GET">
+          <div class="icon buffer-bottom">
+            <img class="image" src="images/vimeo.ico">
+          </div>
+          <div class="label">
+            <label for="title-medium">Vimeo</label>
+          </div>
+          <div class="search">
+            <input type="text" name="q" value="">
+          </div>
+          <div>
+            <input class="button button-green" type="submit" value="ИСКАТЬ" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
